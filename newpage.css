@@ -41,8 +41,11 @@ padding:-80px  320 px;
 	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
-	height: 80vh;
+	height: 50vh;
 
+}
+.carousel-inner{
+  height : 50vh;
 }
 .carousel-caption {
 	padding-bottom: 250px;
@@ -167,6 +170,9 @@ h3{
     width:100%;
     height:auto;
     object-fit: contain;
+    max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
 }
 
 

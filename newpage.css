@@ -38,10 +38,11 @@ padding:-80px  320 px;
 }
 .banner {
 	-webkit-background-size: cover;
-	background-size: cover;
+	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
-	height: 90vh;
+	height: 80vh;
+
 }
 .carousel-caption {
 	padding-bottom: 250px;

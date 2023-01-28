@@ -2,39 +2,46 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #000000;
 }
+
 header .carousel-inner .item {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.884);
 }
+
 .navbar-inverse {
   background-color: rgba(0, 0, 0, 0.884);
   border-color: transparent;
-  height: 11vh;
+  height: 10vh;
 }
+
 .navbar-inverse .navbar-brand {
   color: #edbb00;
   font-size: 40px;
   padding: -100px 15px;
   font-weight: 900;
 }
+
 .nav.navbar-nav.navbar-right {
   margin: -2px 0;
   padding: -80px;
 }
-.navbar-inverse .navbar-nav > li > a {
+
+.navbar-inverse .navbar-nav>li>a {
   color: #edbb00;
   text-transform: uppercase;
   padding: -80px 15px;
 }
 
-.navbar-inverse .navbar-nav > li > button > a {
+.navbar-inverse .navbar-nav>li>button>a {
   color: #edbb00;
   text-transform: uppercase;
 }
+
 .f10 {
   display: inline-block;
   padding: -80px 320 px;
 }
+
 .banner {
   -webkit-background-size: cover;
   background-size: contain;
@@ -42,21 +49,26 @@ header .carousel-inner .item {
   background-repeat: no-repeat;
   height: 50vh;
 }
+
 .carousel-inner {
   height: 50vh;
 }
+
 .carousel-caption {
   padding-bottom: 250px;
   font-family: poppins;
 }
+
 .carousel-caption h2 {
   font-size: 70px;
   text-transform: uppercase;
   font-weight: bold;
 }
+
 .carousel-caption h2 span {
   color: #edbb00;
 }
+
 .carousel-caption a {
   background: #000000;
   padding: 15px 35px;
@@ -66,53 +78,66 @@ header .carousel-inner .item {
   text-transform: uppercase;
   border-radius: 25px;
 }
+
 .carousel-control.right {
   background-image: none;
 }
+
 .carousel-control.left {
   background-image: none;
 }
+
 .carousel-indicators .active {
   background-color: #edbb00;
   border-color: #000000;
 }
+
 /*responsive css*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .carousel-caption {
     padding-bottom: 350px;
   }
+
   .carousel-caption h2 {
     font-size: 50px;
   }
 }
+
 @media only screen and (max-width: 767px) {
   .navbar-inverse .navbar-brand {
     font-size: 30px;
     padding: 20px 15px;
   }
+
   .navbar-collapse {
     background: rgba(0, 0, 0, 0.5);
   }
+
   .carousel-caption {
     padding-bottom: 250px;
   }
+
   .carousel-caption h2 {
     font-size: 25px;
   }
+
   .carousel-caption h3 {
     font-size: 18px;
   }
+
   .carousel-caption a {
     padding: 10px 25px;
   }
 }
+
 /* *******************about************************************/
 
 .container {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 .section1 {
   width: 100%;
   /* border: 2px solid red; */
@@ -130,6 +155,23 @@ header .carousel-inner .item {
   color: white;
   width: 90%;
 }
+
+.event-title {
+  color: #a4fc00;
+  text-transform: uppercase;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+}
+
+.event-title>sup {
+  font-size: medium;
+  vertical-align: super;
+}
+
+.event-details {
+  font-weight: bold;
+}
+
 h3 {
   color: #edbb00;
 }
@@ -144,6 +186,7 @@ h3 {
   background-color: #000000;
   color: white;
 }
+
 /*-------------------image resized-------------------------------------*/
 
 .img {
@@ -159,7 +202,7 @@ h3 {
 }
 
 #img1 {
-  background-image: url(images/aiu\ parallax.jpeg);
+  background-image: url(images/AthleticsMeet.jpg);
   min-height: 100vh;
   width: 100%;
   height: auto;
@@ -176,6 +219,7 @@ h3 {
   letter-spacing: 8px;
   font-size: 1.8rem;
 }
+
 .caption2 {
   position: relative;
   top: 40vh;
@@ -189,6 +233,7 @@ h3 {
   padding: 16px;
   background-color: black 0;
 }
+
 /********timeline**********/
 
 /*----------------------FAQs------------------------------*/
@@ -216,10 +261,12 @@ h3 {
   background-color: #fff;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
 }
+
 .faq.active::before {
   height: 10px;
   margin-right: 5px;
 }
+
 .faq.active::after,
 .faq.active::before {
   color: #2ecc71;
@@ -454,6 +501,7 @@ h3 {
     right: 10px;
   }
 }
+
 /*----------------------FAQs------------------------------*/
 /*-------------------Footer--------------------------*/
 /*--------------------------------------------------------------
@@ -463,6 +511,7 @@ h3 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .contact .info {
   width: 100%;
 }
@@ -619,6 +668,7 @@ h3 {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -628,13 +678,16 @@ h3 {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
+
 div {
   column-gap: 50px;
 }
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -713,9 +766,11 @@ div {
   padding: 0;
   margin: 0;
 }
+
 .col-lg-4 col-md-6 footer-newsletter {
   margin-left: 50px;
 }
+
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
   color: #000000;

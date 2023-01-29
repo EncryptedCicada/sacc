@@ -11,7 +11,7 @@ header .carousel-inner .item {
 .navbar-inverse {
   background-color: rgba(0, 0, 0, 0.884);
   border-color: transparent;
-  height: 10vh;
+  /* height: 10vh; */
 }
 
 .navbar-inverse .navbar-brand {
@@ -144,7 +144,7 @@ header .carousel-inner .item {
   font-size: 1.4rem;
   padding: 50px 75px;
   text-align: center;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 
 .section p {
@@ -159,7 +159,6 @@ header .carousel-inner .item {
 .event-title {
   color: #a4fc00;
   text-transform: uppercase;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bolder;
 }
 
@@ -170,6 +169,7 @@ header .carousel-inner .item {
 
 .event-details {
   font-weight: bold;
+  font-size: large;
 }
 
 h3 {

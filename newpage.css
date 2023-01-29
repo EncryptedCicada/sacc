@@ -133,6 +133,83 @@ header .carousel-inner .item {
 
 /* *******************about************************************/
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: auto;
+  gap: 25px 25px;
+  justify-content: center;
+}
+
+.button-grid {
+  align-items: center;
+  appearance: none;
+  background-color: #edbb00;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: content-box;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform, opacity;
+  z-index: 0;
+}
+
+.button-grid:hover {
+  background: #F6F9FE;
+  color: rgb(0, 0, 0);
+}
+
+.button-grid:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-grid:focus {
+  outline: none;
+  border: none;
+  color: rgb(23, 78, 166);
+}
+
+.button-grid:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-grid:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-grid:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-grid:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-grid:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
 .container {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -140,11 +217,10 @@ header .carousel-inner .item {
 
 .section1 {
   width: 100%;
-  /* border: 2px solid red; */
   font-size: 1.4rem;
   padding: 50px 75px;
   text-align: center;
-  /* opacity: 0.8; */
+  line-height: 40px;
 }
 
 .section p {
@@ -154,6 +230,33 @@ header .carousel-inner .item {
   line-height: 1.8em;
   color: white;
   width: 90%;
+}
+
+.segment {
+  border: none;
+  border-radius: 5px;
+  height: 0.5vh;
+  background: #edbb00;
+  background-image: -webkit-linear-gradient(left, rgb(0, 0, 0), #edbb00, rgb(0, 0, 0));
+  background-image: -moz-linear-gradient(left, rgb(0, 0, 0), #edbb00, rgb(0, 0, 0));
+  background-image: -ms-linear-gradient(left, rgb(0, 0, 0), #edbb00, rgb(0, 0, 0));
+  background-image: -o-linear-gradient(left, rgb(0, 0, 0), #edbb00, rgb(0, 0, 0));
+}
+
+.section-title {
+  font-weight: bold;
+  color: #edbb00;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.section-subtitle {
+  font-weight: lighter;
+  color: #edbb00;
+  text-align: center;
+  font-size: 2em;
+  padding: 30px 20px;
+  text-decoration: underline;
 }
 
 .event-title {

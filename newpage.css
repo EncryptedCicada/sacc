@@ -11,7 +11,7 @@ header .carousel-inner .item {
 .navbar-inverse {
   background-color: rgba(0, 0, 0, 0.884);
   border-color: transparent;
-  /* height: 10vh; */
+  /* vertical-align: middle; */
 }
 
 .navbar-inverse .navbar-brand {
@@ -19,6 +19,7 @@ header .carousel-inner .item {
   font-size: 40px;
   padding: -100px 15px;
   font-weight: 900;
+  display: contents;
 }
 
 .nav.navbar-nav.navbar-right {
@@ -35,6 +36,47 @@ header .carousel-inner .item {
 .navbar-inverse .navbar-nav>li>button>a {
   color: #edbb00;
   text-transform: uppercase;
+}
+
+.navbar-logo {
+  width: 15%;
+  height: auto;
+}
+
+.clear-button {
+  align-items: center;
+  vertical-align: middle;
+  appearance: none;
+  background-color: #00000000;
+  border-style: none;
+  box-shadow: none;
+  box-sizing: content-box;
+  color: #edbb00;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: inherit;
+  font-weight: inherit;
+  height: 48px;
+  justify-content: left;
+  letter-spacing: inherit;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: none;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  z-index: 0;
+}
+
+.clear-button:hover {
+  background: inherit;
+  color: rgb(255, 255, 255);
 }
 
 .f10 {
@@ -108,10 +150,14 @@ header .carousel-inner .item {
   .navbar-inverse .navbar-brand {
     font-size: 30px;
     padding: 20px 15px;
+    vertical-align: middle;
+    /* align-items: center;
+    text-align: center; */
   }
 
   .navbar-collapse {
     background: rgba(0, 0, 0, 0.5);
+    vertical-align: middle;
   }
 
   .carousel-caption {
@@ -213,6 +259,7 @@ header .carousel-inner .item {
 .container {
   margin-top: 30px;
   margin-bottom: 30px;
+  vertical-align: middle;
 }
 
 .section1 {
